@@ -1,0 +1,113 @@
+body{
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+header {
+  display: flex; 
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+header section {
+  display: flex; 
+  margin-top: 15px;
+}
+
+#logo {
+  display: flex;
+  flex-direction: column;
+}
+
+#logo h1{
+  font-weight: bold;
+  font-style: italic;
+  font-size: xx-large;
+  margin-left: 5px;
+}
+
+#logo p{
+  font-style: monospace;
+  font-size: xx-small;
+  margin-left: 5px;
+}
+
+h2{
+  font-weight: bold;
+  font-style: impact;
+  font-size: xx-large;
+  /*margin-bottom: 5px;*/
+}
+
+main article section {
+  display: flex;
+  justify-content: space-between;
+}
+
+main article img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+main article section section img{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.par{
+  text-indent: 40px;
+}
+
+main section{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#about-me{
+  display:flex;
+  flex-direction: column;
+}
+
+h3{
+  font-weight: bold;
+  font-style: impact;
+  font-size: x-large;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+footer img{
+  width: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer p{
+  text-align: center;
+}
+
+div {
+  position: relative;
+}
+
+div p{
+  position: absolute;
+  text-align: center;
+  margin-top: 10%;
+
+}
+
+
